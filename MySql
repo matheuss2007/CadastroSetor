@@ -1,0 +1,9 @@
+use setor;
+
+create table if not exists funcionario(
+id int not null auto_increment primary key,
+nome varchar (100) not null
+)default charset = utf8mb4;
+
+select * from funcionario;
+    
